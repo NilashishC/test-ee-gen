@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: network-ee
-  description: network-ee-description
+  name: network-ee-1
+  description: Network EE 1
   tags:
     - execution-environment
   annotations:
@@ -10,5 +10,5 @@ metadata:
     github.com/project-slug: github.com/NilashishC/test-ee-gen
 spec:
   type: ansible-execution-environment
-  owner: admin
+  owner: user:default/test_user_49791dc7
   lifecycle: production
